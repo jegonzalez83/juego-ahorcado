@@ -17,7 +17,7 @@ h1 {
   
   body{
     
-    background-image: url("/fondo.jpg");
+    background-image: url("fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -129,7 +129,7 @@ h1 {
     
     
     width: 80%;
-    background-image: url(/fondo2.jpg);
+    background-image: url(fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
