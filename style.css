@@ -132,6 +132,7 @@ h1 {
     background-image: url(/imagenes/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #1C6EA4;
     
   }
   .mensaje {
