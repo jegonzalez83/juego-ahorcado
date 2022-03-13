@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+h1 {
+    padding: 1px;
+    margin: auto;
+    font-size: 35%;
+    text-align: center;
+    color: black;
+    
+    
+  
+  }
+  
+  body{
+    
+    background-image: url("/imagenes/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100vh; 
+    
+    
+    font-family: sans-serif;
+    width: 70%;
+    display: flex;
+    
+  }
+  
+  .container {
+    width: 70%;
+    max-width: 100px;
+   
+    
+  
+  }
+  .botones {
+      text-align: center;
+      align-items: center; 
+        
+      
+  }
+  #areaJuego{
+    display :none;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+     
+  }
+ 
+  
+  .btn {
+    color: rgb(64, 255, 54); 
+    font-size: 1rem; 
+    line-height: 16px; 
+    padding: 16px; 
+    border-radius: 10px; 
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    text-shadow: 2px 2px 2px black;
+    font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: none; display: inline-block;}
+    .btn:hover {  
+      background: #1C6EA4; }
+    .btn:active { 
+       background: #144E75; }
+  
+    
+  
+  .text-input {
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 30%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  
+  
+  #palabraSecreta {
+      font-family: Georgia, serif;
+      font-size: 40px;
+      letter-spacing: 3px;
+      padding: 15px;
+      
+      text-align: center;
+      word-spacing: 3px;
+      color: #1b021b;
+  }
+  
+  #letrasError {
+      font-family: Georgia, serif;
+      font-size: 20px;
+      letter-spacing: 3px;
+      padding: 15px;
+      color:  #f12308;
+  
+  }
+  
+  #vidas {
+  
+      font-size: 30px;
+      color:  #0f0401;
+      text-shadow: rgb(10, 1, 1);
+      
+      
+  
+  }
+  
+  
+  .comienzo {
+    font-size: 7rem;
+    position: absolute;
+    width: 100%;
+     
+  }
+  
+  #ahorcado {
+    
+    
+    width: 80%;
+    background-image: url(/imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .mensaje {
+    
+    position: absolute;
+    
+    
+  }
+  
+  #resultadoGanador{
+    position: absolute;
+    top:11em;
+    font-size: 25px;
+    color: rgb(20, 231, 30);
+    background-color: rgb(230, 239, 240);
+  
+  
+  }
+  #resultadoPerdedor{
+    position: absolute;
+    
+    top : 20em;
+    font-size: 25px;
+    color: rgb(240, 30, 23);
+  
+  }
+  #reiniciar-juego{
+    left: 40em;
+    top: 5em;
+  
+   }
+  
+   @media screen and(min-width:320px) and ( max-width: 768px){
+     
+    .inicio{
+       width: 100%;
+     }
+     .text-input ::placeholder{
+         width: max-content;
+         
+     }
+     #areaJuego{
+       width: 100%;
+    
+     }
+     
+     .mensaje {
+       width: 30%;
+     }
+  
+   }
+  
+   .reservado{
+    
+    position: absolute !important;
+    width: 100%;
+    max-width: 100%;
+    padding: 1px 1px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    bottom: 0px;
+    color: #0a0a0a;
+    background-color: #8bbcf5;
+    
+    
+   }
+  
+  
